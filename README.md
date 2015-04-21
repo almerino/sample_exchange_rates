@@ -15,6 +15,9 @@ You need to configure [Dalli](https://github.com/mperham/dalli) with memcached
 ```ruby
 bundle install
 rake db:migrate
+
+run test:
+bundle exec rspec
 ```
 
 
