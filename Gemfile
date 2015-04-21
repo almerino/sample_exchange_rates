@@ -10,7 +10,7 @@ gem 'jquery-rails'
 gem 'moneta'
 gem 'sass-rails', '~> 4.0.3'
 gem "slim-rails", "~> 3.0.1"
-gem 'sqlite3'
+gem 'pg'
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'uglifier', '>= 1.3.0'
 
