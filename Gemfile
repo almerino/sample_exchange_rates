@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'dalli'
 gem 'jquery-rails'
 gem 'moneta'
+gem 'rails_12factor', group: :production
 gem 'sass-rails', '~> 4.0.3'
 gem "slim-rails", "~> 3.0.1"
 gem 'pg'
