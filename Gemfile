@@ -4,6 +4,7 @@ gem 'rails', '4.1.4'
 
 gem 'api_cache', '~> 0.3.0'
 gem 'bootstrap-sass', '~> 3.3.4.1'
+gem 'memcachier'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'dalli'
 gem 'jquery-rails'
