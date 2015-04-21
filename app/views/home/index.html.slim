@@ -1,0 +1,17 @@
+h1.text-center Exchange Rates
+- unless @exchange_rates.empty?
+  table.table.table-striped
+    thead
+      tr
+        td
+      	  | Currency
+        td
+      	  | Value
+    tbody
+      - @exchange_rates.each do |currency, value|
+        tr
+          td.currency= currency
+          td.value= value 
+    
+
+
